@@ -17,7 +17,7 @@ public class VariablesAndDatatypes {
 
          Types of Data Types:
          1. Primitive
-         2. Non-Primitive
+         2. Non-Primitive / UserDefined Datatypes
 
          Primitive Data Types:
          byte    -> 1 byte
@@ -28,6 +28,13 @@ public class VariablesAndDatatypes {
          double  -> 8 bytes
          boolean -> 1 bit
          char    -> 2 bytes
+         
+         UserDefined dataTypes:
+         class
+         enum
+         interface
+         etc.
+         
         */
 
         byte b = 10;
