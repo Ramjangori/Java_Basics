@@ -21,8 +21,9 @@ public class Unique {
 		}
 	}
 	
+	
 	public static void main(String[] args) {
-		int arr[] = {2,2,3,3,5,6,6,7,5};
+		int arr[] = {-1,2,-1};
 		unique(arr,arr.length);
 	}
 
