@@ -1,16 +1,10 @@
 package com.javaarray;
 // findiing Unique Value
-
-
 public class Unique {
-	
 	static void unique(int arr[], int size) {
 		for(int i=0 ; i<size; i++) {
-			int freq=0;
-			
-			for(int j=0; j<size ; j++) {
-				
-				 
+			int freq=0;		
+			for(int j=0; j<size ; j++) {			 
 				if(arr[i]==arr[j]) {
 					freq++;
 				}
@@ -20,7 +14,6 @@ public class Unique {
 			}
 		}
 	}
-	
 	
 	public static void main(String[] args) {
 		int arr[] = {-1,2,-1};

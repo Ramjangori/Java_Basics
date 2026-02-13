@@ -18,11 +18,6 @@ public class SwapSmallestLargest {
 		}
 	}
 	
-//	System.out.println("Smallest value :" +sm);
-//	System.out.println("smallest index : " +smindex);
-//	System.out.println("largest value :" +mx);
-//	System.out.println("largest index : " +mxindex);
-	
 	// Swapping largest and smallest 
 	int temp = arr[smindex];
 	arr[smindex] = arr[mxindex];
